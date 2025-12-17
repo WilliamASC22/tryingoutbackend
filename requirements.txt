@@ -1,0 +1,6 @@
+pymongo
+bcrypt
+pyotp
+python-dotenv
+requests
+pyjwt[crypto]

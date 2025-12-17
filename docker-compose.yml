@@ -1,0 +1,29 @@
+services:
+  nginx:
+    build: ./nginx
+    ports:
+      - '80:80'
+      - '443:443'
+  mongo:
+    image: mongo:4.2.5
+  myapp:
+    build: .
+    env_file:
+      - .env
+    environment:
+      WAIT_HOSTS: mongo:27017
+      DOCKER_DB: true
+    ports:
+      - '8080:8080'
+
+  authentication:
+    build:
+      context: .
+      dockerfile: ./authentication/Dockerfile
+    env_file:
+      - .env
+    environment:
+      WAIT_HOSTS: mongo:27017
+      DOCKER_DB: true
+    ports:
+      - '8081:8081'
