@@ -1,7 +1,5 @@
 Web Application Server
 
-A full-stack web application that demonstrates real-time systems, authentication, media streaming, and secure deployment.
-
 
 Running Locally
 
@@ -32,10 +30,9 @@ Highlights
 
 - Fully containerized deployment using Docker Compose and an Nginx HTTPS reverse proxy
 
-Tech Stack
-Python, MongoDB, WebSockets, JWT, bcrypt, FFmpeg, HLS, Docker, Nginx, WebRTC
+Tech Stack: Python, MongoDB, WebSockets, JWT, bcrypt, FFmpeg, HLS, Docker, Nginx, WebRTC
 
-Architecture
+Architecture:
 Client -> Nginx (HTTPS/WSS) -> App Server
 -> Auth Server (JWT issuer)
 -> MongoDB
