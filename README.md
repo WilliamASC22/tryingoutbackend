@@ -1,5 +1,7 @@
 Web Application Server
 
+A full-stack web application that demonstrates real-time systems, authentication, media streaming, and secure deployment.
+
 
 Running Locally
 
