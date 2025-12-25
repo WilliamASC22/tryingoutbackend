@@ -22,7 +22,7 @@ Highlights
 
 - Custom Python HTTP server with manual Request/Response parsing, routing, and static file hosting
 
-- Secure authentication with bcrypt password hashing, HttpOnly + Secure cookies, TOTP-based 2FA, and RS256-signed JWTs
+- Secure authentication with bcrypt password hashing, HttpOnly + Secure cookies, DOS attack prevention, TOTP-based 2FA, and RS256-signed JWTs
 
 - Real-time features using WebSockets (chat, collaborative drawing board, active user lists, dirrect messaging, continuation and back-to-back frame handling)
 
