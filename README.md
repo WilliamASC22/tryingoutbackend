@@ -6,9 +6,9 @@ A full-stack web application that demonstrates real-time systems, authentication
 Running Locally
 
 In terminal (after cloning the repository and cd'ing into it):
-chmod +x setup.sh
-./setup.sh
-docker compose up
+- chmod +x setup.sh
+- ./setup.sh
+- docker compose up
 
 Visit https://localhost (HTTP automatically redirects to HTTPS)
 
