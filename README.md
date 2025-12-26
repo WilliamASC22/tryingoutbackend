@@ -9,8 +9,7 @@ In terminal (after cloning the repository and cd'ing into it):
 - chmod +x setup.sh
 - ./setup.sh
 - docker compose up
-
-Visit https://localhost (HTTP automatically redirects to HTTPS)
+- Visit https://localhost (HTTP automatically redirects to HTTPS)
 
 
 Notes
@@ -32,7 +31,7 @@ Highlights
 
 - Fully containerized deployment using Docker Compose and an Nginx HTTPS reverse proxy
 
-Tech Stack: Python, MongoDB, WebSockets, JWT, bcrypt, FFmpeg, HLS, Docker, Nginx, WebRTC
+Tech Stack: Python, MongoDB, WebSockets, JWT, bcrypt, FFmpeg, HLS, Docker, Nginx, WebRTC, DOS attack/prevention 
 
 Architecture:
 Client -> Nginx (HTTPS/WSS) -> App Server
