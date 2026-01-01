@@ -5,11 +5,22 @@ A full-stack web application that demonstrates real-time systems, authentication
 
 Running Locally
 
-In terminal (after cloning the repository and cd'ing into it):
+After cloning the repository and cd'ing into it:
+
+1) Create a required .env file in the project root. Copy and paste the 4 lines below into it. The GITHUB_CLIENT_ID and GITHUB_CLIENT_SECRET variables should be filled in only if GitHub OAuth 2.0 login is desired:
+
+environment=dev
+REDIRECT_URI=http://localhost:8080/authcallback
+GITHUB_CLIENT_ID=""
+GITHUB_CLIENT_SECRET=""
+
+2) Now start the application! In a terminal:
+
 - chmod +x setup.sh
 - ./setup.sh
 - docker compose up
-- Visit https://localhost (HTTP automatically redirects to HTTPS)
+
+Go to your browser and visit https://localhost (HTTP automatically redirects to HTTPS)
 
 
 Notes
